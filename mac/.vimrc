@@ -4,6 +4,7 @@ call plug#begin()
 " https://github.com/junegunn/vim-plug
 
 Plug 'tmsvg/pear-tree'
+Plug 'tpope/vim-fugitive'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'vim-python/python-syntax'
@@ -37,7 +38,7 @@ set smarttab
 
 set background=dark
 colorscheme material
-let g:airline_theme = 'material'
+let g:airline_theme = 'deus'
 let g:python_highlight_all=1
 
 " NERDTree config
